@@ -19,6 +19,7 @@ public typealias AssetImageTypeAlias = ImageAsset.Image
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 public enum Asset {
+  public static let searchIcon = ImageAsset(name: "search-icon")
   public static let splashLogo = ImageAsset(name: "splash-logo")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
