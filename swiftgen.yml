@@ -1,0 +1,14 @@
+xcassets:
+    inputs: Sources/LystAssets/Assets.xcassets
+    outputs:
+        templateName: swift5
+        output: Sources/LystAssets/Generated/Assets.swift
+        params:
+            publicAccess: true
+fonts:
+    inputs: Sources/LystAssets/Fonts
+    outputs:
+        templateName: swift5
+        output: Sources/LystAssets/Generated/Fonts.swift
+        params:
+            publicAccess: true
